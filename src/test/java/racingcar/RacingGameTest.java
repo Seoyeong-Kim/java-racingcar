@@ -29,5 +29,5 @@ public class RacingGameTest {
         for (Car car : racingGameState.getCars()) {
             assertThat(car.getPosition()).isEqualTo(0);
         }
-    }git
+    }
 }

@@ -1,5 +1,6 @@
 package racingcar.domain;
 
+@FunctionalInterface
 public interface CarMovableDecider {
-    public boolean movable();
+    boolean movable();
 }
